@@ -1,38 +1,46 @@
 let value;
-const value1 = 10;
-const value2 = 4;
 
-// Aritmetik Operatörller
+const firstName = "Orhan";
+const lastName = "Kalkan";
 
-// value = value1 + value2;
-// value = value1 + value2;
-// value = value1 * value2;
-// value = value1 / value2;
-// value = value1 % value2;
+const langs = "Java, Python, C#";
 
-value = Math.PI;
-value = Math.E;
+value = firstName + lastName;
+value = firstName + " " + lastName;
 
-value = Math.round(3.8);
-value = Math.round(3.3);
+value = "Adnan Kara";
+value += " " + "Selam";
 
-value = Math.ceil(3.2);
+value = firstName.length;
 
-value = Math.floor(3.8);
+value = firstName.concat(" ", lastName)
 
-value = Math.sqrt(16);
+value = lastName.toLowerCase();
+value = lastName.toUpperCase();
 
-
-value = Math.abs(-10);
-
-value = Math.pow(8, 3);
+value = firstName[0];
+value = firstName[firstName.length - 1];
 
 
-value = Math.max(10, - 1, 100);
-value = Math.min(10, - 1, 100);
+// Index Of
 
-value = Math.random();
-value = parseInt(Math.random() * 20);
+value = firstName.indexOf("n");
 
+// Char At
+
+value = firstName.charAt(4);
+value = firstName.charAt(firstName.length - 1);
+
+// Split
+
+value = langs.split(",");
+
+// Replace
+
+value = langs.replace("Python", "JavaScript");
+
+// Includes
+
+value = langs.includes("Java");
 
 console.log(value);
