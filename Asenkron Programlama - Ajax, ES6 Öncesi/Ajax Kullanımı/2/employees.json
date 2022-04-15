@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Orhan Kalkan",
+        "department": "Bilişim",
+        "salary": "10000"
+    },
+    {
+        "name": "Mustafa Murat",
+        "department": "Bilişim",
+        "salary": "4000"
+    },
+    {
+        "name": "Oğuzhan Artıran",
+        "department": "Pazarlama",
+        "salary": "5000"
+    }
+]
